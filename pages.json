@@ -1,0 +1,44 @@
+{
+	"pages": [
+		{
+			"path": "pages/index",
+			"style": {
+				"navigationBarTitleText": "打卡记录",
+				"transparentTitle":"auto"
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path":"pages/home",
+			"style":{
+				"navigationBarTitleText":"我的"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#000000",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"iconWidth":"20",
+		"list": [{
+				"pagePath": "pages/index",
+				"iconPath":"static/logo.png",
+				"selectedIconPath":"static/logo.png",
+				"text": "首页"
+			},
+			{
+				"pagePath":"pages/home",
+				"iconPath":"static/logo.png",
+				"selectedIconPath":"static/logo.png",
+				"text":"我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
